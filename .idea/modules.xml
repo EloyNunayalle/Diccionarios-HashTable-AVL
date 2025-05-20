@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dictionaries.iml" filepath="$PROJECT_DIR$/.idea/dictionaries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Diccionarios-HashTable-AVL.iml" filepath="$PROJECT_DIR$/.idea/Diccionarios-HashTable-AVL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Diccionarios-HashTable-AVL2.iml" filepath="$PROJECT_DIR$/.idea/Diccionarios-HashTable-AVL2.iml" />
     </modules>
   </component>
 </project>

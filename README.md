@@ -1,7 +1,7 @@
 # Estructura de datos para gestionar eficientemente diccionarios
 
 ## Integrantes: 
-- 1 ____   _____
+- 1 Llorent Eloy Nunayalle Brañes
 - 2 ____   _____
 - 3 ____   _____
 

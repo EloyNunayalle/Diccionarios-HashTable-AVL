@@ -31,9 +31,9 @@ private:
 
     void postorder(NodeAVL<T>* root) {
         if(!root) return;
-        std::stack<NodeAVL<T>*> temp;          // ← Punteros, no objetos
+        std::stack<NodeAVL<T>*> temp;
         temp.push(root);
-        while(!temp.empty()) {                 // ← temp en vez de temp->
+        while(!temp.empty()) {
             NodeAVL<T>* node = temp.top(); temp.pop();
             s2.push(node);
             if(node->left)  temp.push(node->left);
@@ -47,7 +47,6 @@ public:
         else if(type == PreOrder && root)  primero.push(root);
         else if(type == PostOrder && root) postorder(root);
         else if(type == BFS && root) segundo.push(root);
-        /* Posicionar current en el primer nodo para que *it sea válido antes de ++it */
         if(root) ++(*this);
     }
     AVLIterator<T> &operator=(AVLIterator<T> other){ current = other.current; primero = other.primero;
