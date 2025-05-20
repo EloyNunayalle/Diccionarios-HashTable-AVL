@@ -1,4 +1,5 @@
-
+#ifndef AVL_NODE_H        // ← guarda agregado
+#define AVL_NODE_H
 template <typename T>
 struct NodeAVL {
     T data;
@@ -14,3 +15,5 @@ struct NodeAVL {
         delete this;
     }
 };
+
+#endif
