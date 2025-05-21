@@ -3,7 +3,7 @@
 ## Integrantes: 
 - 1 Llorent Eloy Nunayalle Brañes
 - 2 Luis Anthony Romero Padilla
-- 3 ____   _____
+- 3 Flores Pascual Juan Renato
 
 ## Instrucciones 
 
